@@ -1,0 +1,172 @@
+{
+ "params": 27233938,
+ "epochs": 20,
+ "capped": false,
+ "minutes": 1.7,
+ "test_loss": 3.455300603349757,
+ "test_ppl": 31.66780670040271,
+ "test_acc": 0.56656961016561,
+ "bleu_greedy": 21.137069092288097,
+ "bleu_greedy_beam_subset": 22.332127697252158,
+ "bleu_beam": 22.878272082072485,
+ "beam_width": 4,
+ "beam_pairs": 500,
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 6.017895293235779,
+   "test_loss": 5.289346322060718,
+   "test_acc": 0.2546735858370917
+  },
+  {
+   "epoch": 2,
+   "train_loss": 4.923508203029632,
+   "test_loss": 4.728407121295239,
+   "test_acc": 0.3201671033492746
+  },
+  {
+   "epoch": 3,
+   "train_loss": 4.252957063913345,
+   "test_loss": 4.245128023416658,
+   "test_acc": 0.376081358757875
+  },
+  {
+   "epoch": 4,
+   "train_loss": 3.599357455968857,
+   "test_loss": 3.8101921790751967,
+   "test_acc": 0.429970037337521
+  },
+  {
+   "epoch": 5,
+   "train_loss": 2.9985759615898133,
+   "test_loss": 3.541983017656035,
+   "test_acc": 0.4702282989684623
+  },
+  {
+   "epoch": 6,
+   "train_loss": 2.4497603356838225,
+   "test_loss": 3.3208125058561406,
+   "test_acc": 0.5055914297457832
+  },
+  {
+   "epoch": 7,
+   "train_loss": 1.9263294130563735,
+   "test_loss": 3.2310090025059757,
+   "test_acc": 0.5228931929872284
+  },
+  {
+   "epoch": 8,
+   "train_loss": 1.4667788684368133,
+   "test_loss": 3.1252059118050575,
+   "test_acc": 0.5413765501522256
+  },
+  {
+   "epoch": 9,
+   "train_loss": 1.078059734404087,
+   "test_loss": 3.1108639982373782,
+   "test_acc": 0.5516309982971607
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.7850545808672905,
+   "test_loss": 3.0955657836741657,
+   "test_acc": 0.557834321689811
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.5467322364449501,
+   "test_loss": 3.1257828294302725,
+   "test_acc": 0.5559775523180176
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.36804070621728896,
+   "test_loss": 3.166122342592735,
+   "test_acc": 0.5583407100798304
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.24585997872054577,
+   "test_loss": 3.196134713167238,
+   "test_acc": 0.5581719217413301
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.16084687747061252,
+   "test_loss": 3.2390118953009246,
+   "test_acc": 0.5618010664728718
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.1040591761469841,
+   "test_loss": 3.3033527878611864,
+   "test_acc": 0.5631514626695883
+  },
+  {
+   "epoch": 16,
+   "train_loss": 0.07075922694057227,
+   "test_loss": 3.3504988864166716,
+   "test_acc": 0.5634046485113454
+  },
+  {
+   "epoch": 17,
+   "train_loss": 0.04972154377028346,
+   "test_loss": 3.3779846637838675,
+   "test_acc": 0.5639532369320144
+  },
+  {
+   "epoch": 18,
+   "train_loss": 0.03719904273748398,
+   "test_loss": 3.40363324168926,
+   "test_acc": 0.563657850357844
+  },
+  {
+   "epoch": 19,
+   "train_loss": 0.027589574037119747,
+   "test_loss": 3.4227027454401173,
+   "test_acc": 0.5643752344515764
+  },
+  {
+   "epoch": 20,
+   "train_loss": 0.021103191329166292,
+   "test_loss": 3.455300603349757,
+   "test_acc": 0.56656961016561
+  }
+ ],
+ "examples": [
+  {
+   "src": "this winter has been mild .",
+   "ref": "cet hiver a ete doux .",
+   "greedy": "cette femme est venu de cette cuisine ."
+  },
+  {
+   "src": "they will be here at three .",
+   "ref": "ils seront ici a trois heures .",
+   "greedy": "ils sera ici a trois ."
+  },
+  {
+   "src": "i once lived in rome .",
+   "ref": "j'ai vecu un temps a rome .",
+   "greedy": "j'ai une autre detonation et je parle ."
+  },
+  {
+   "src": "schedules are difficult to coordinate .",
+   "ref": "les emplois du temps sont difficiles a coordonner .",
+   "greedy": "ses livres sont difficiles a tuer ."
+  },
+  {
+   "src": "i came here hoping to see tom .",
+   "ref": "je suis venu ici en esperant voir tom .",
+   "greedy": "je suis venu ici pour voir tom ."
+  }
+ ],
+ "legacy_source": "C5 (concat)",
+ "config": {
+  "cell": "lstm",
+  "attention": "concat"
+ },
+ "model": "s2s_luong_lstm_concat",
+ "stage": "lm03",
+ "smoke": false,
+ "torch": "2.5.1+cu124"
+}
