@@ -1,3 +1,10 @@
+<!-- PAI-SG-LINKS:BEGIN -->
+## Project Links
+
+- [Project Portal](https://statera-workshop.github.io/#repo-lm_encdec_base_luonglstm_concat)
+- [Statera Workshop Portal](https://statera-workshop.github.io/)
+<!-- PAI-SG-LINKS:END -->
+
 # LM_EncDec_Base_LuongLSTM_concat
 
 Encoder-decoder translation model ported from legacy TF2 code C5 (concat) to PyTorch (cell=lstm, attention=concat).
